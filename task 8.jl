@@ -1,4 +1,4 @@
-function result(robot):nothing
+function result!(robot):nothing
     k = 1
     while !ismarker(robot)
         for i in 1:k
